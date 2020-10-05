@@ -15,7 +15,8 @@ export default () => {
     const getCars = async () => {
         const config = {
             method: 'get',
-            url: 'https://my-json-server.typicode.com/RafaelTrog/fake-api/carros',
+            // url: 'https://my-json-server.typicode.com/RafaelTrog/fake-api/carros',
+            url: 'https://convergerimos.herokuapp.com/estoque',
             headers: {
                 'content-type': 'application/json'
             }
