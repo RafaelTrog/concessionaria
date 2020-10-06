@@ -24,12 +24,13 @@ export default (props) => {
         fipe,
         placa,
         valor,
-        img
+        url
     } = props;
 
     return (
         <Box>
-            <CarImg src={(img) ? img : CarUrl} alt="img" />
+            {/* <CarImg src={(url) ? url : CarUrl} alt="img" /> */}
+            <CarImg url={url || CarUrl} />
             <Infos>
                 <Items>
                     <SpanTitle>#</SpanTitle>

@@ -46,7 +46,7 @@ export default () => {
                         fipe={carro.fipe}
                         placa={carro.placa}
                         valor={carro.valor}
-                        img={carro.img}
+                        url={carro.url}
                     />
                 )
             })
